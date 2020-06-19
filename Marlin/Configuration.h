@@ -154,10 +154,10 @@
 
 // Save and restore temperature and fan speed on tool-change.
 // Set standby for the unselected tool with M104/106/109 T...
-#if ENABLED(SINGLENOZZLE)
+// #if ENABLED(SINGLENOZZLE)
   //#define SINGLENOZZLE_STANDBY_TEMP
   //#define SINGLENOZZLE_STANDBY_FAN
-#endif
+// #endif
 
 /**
  * Průša MK2 Single Nozzle Multi-Material Multiplexer, and variants.
@@ -170,13 +170,13 @@
  * Additional options to configure custom E moves are pending.
  */
 //#define MK2_MULTIPLEXER
-#if ENABLED(MK2_MULTIPLEXER)
+// #if ENABLED(MK2_MULTIPLEXER)
   // Override the default DIO selector pins here, if needed.
   // Some pins files may provide defaults for these pins.
   //#define E_MUX0_PIN 40  // Always Required
   //#define E_MUX1_PIN 42  // Needed for 3 to 8 inputs
   //#define E_MUX2_PIN 44  // Needed for 5 to 8 inputs
-#endif
+// #endif
 
 /**
  * Prusa Multi-Material Unit v2
